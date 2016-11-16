@@ -1,0 +1,86 @@
+body {
+  width: 95%;
+  margin: auto;
+  background-color: #EDBB99;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.heading-text-one {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.heading-text-two {
+  margin-top: 0px;
+  font-family: "Lobster Two", cursive;
+}
+
+.gameboard {
+  font-family: "Kalam", cursive;
+  background-color: #F79E93;
+  border: 2px solid #AA5E54;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.cell {
+  display: inline-block;
+  border: 0.5px solid #AA5E54;
+}
+
+.fifty-cell {
+  width: 2% !important;
+  height: 10px !important;
+}
+
+.hundred-cell {
+  width: 1% !important;
+  height: 5px !important;
+}
+
+.twenty-five-cell {
+  width: 4% !important;
+  height: 20px;
+}
+
+.two-hundred-cell {
+  width: 0.5% !important;
+  height: 3px !important;
+}
+
+.newborn {
+  background-color: #D9F963;
+}
+
+.alive {
+  background-color: #E8F8AD;
+}
+
+.dead {
+  background-color: #9DAB66;
+}
+
+.gameboard-button {
+  margin-top: 10px;
+  background-color: #5D7DAA;
+  width: 100%;
+  font-size: 0.85em;
+}
+.gameboard-button:hover {
+  background-color: #618AC4;
+}
+.gameboard-button:active {
+  background-color: #618AC4;
+}
+.gameboard-button:focus {
+  background-color: #618AC4;
+  outline: none;
+}
