@@ -1,0 +1,92 @@
+// fonts
+$codedby: 'Lobster Two', cursive;
+$title: 'Ubuntu', sans-serif;
+$gameboard: 'Kalam', cursive;
+
+// colors
+$bodybackground: #EDBB99;
+$gameboardbackground: #F79E93;
+$gameboardborder: #AA5E54;
+$deadcell: #9DAB66;
+$livecell: #E8F8AD;
+$newcell: #D9F963;
+$gameboardbutton: #5D7DAA;
+$gameboardbuttonhover: #618AC4;
+
+// elements
+body {
+  width: 95%;
+  margin: auto;
+  background-color: $bodybackground;
+}
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+// classes
+.heading-text-one {
+  font-family: $title;
+}
+.heading-text-two {
+  margin-top: 0px;
+  font-family: $codedby;
+}
+.gameboard {
+  font-family: $gameboard;
+  background-color: $gameboardbackground;
+  border: 2px solid $gameboardborder;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.rounded-corners {
+  border-radius: 10px;
+}
+.cell {
+  display: inline-block;
+  border: 0.5px solid $gameboardborder;
+}
+.fifty-cell {
+  width: 2% !important;
+  height: 10px !important;
+}
+.hundred-cell {
+  width: 1% !important;
+  height: 5px !important;
+}
+.twenty-five-cell {
+  width: 4% !important;
+  height: 20px;
+}
+.two-hundred-cell {
+  width: 0.5% !important;
+  height: 3px !important;
+}
+.newborn {
+  background-color: $newcell;
+}
+.alive {
+  background-color: $livecell;
+}
+.dead {
+  background-color: $deadcell;
+}
+.gameboard-button {
+  margin-top: 10px;
+  background-color: $gameboardbutton;
+  width: 100%;
+  font-size: 0.85em;
+  &:hover {
+    background-color: $gameboardbuttonhover;
+  }
+  &:active {
+    background-color: $gameboardbuttonhover;
+  }
+  &:focus {
+    background-color: $gameboardbuttonhover;
+    outline: none;
+  }
+}
+
+// id
